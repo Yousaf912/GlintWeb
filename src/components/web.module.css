@@ -1,0 +1,45 @@
+
+.main{
+    background:rgba(0, 0, 0,0.6) url('../assets/hero-bg.jpg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    color: white;
+   
+}
+span,.main h6{
+    color: #3ab44a;
+}
+.main h6:hover{
+    color: white;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.btn{
+    background: none;
+    color:white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.icondiv{
+    position: absolute;
+    right: 0px;
+}
+.icn:hover{
+    color: #3ab44a;
+}
+.main::before{
+    position: absolute;
+    content: "";
+    background-color: #3ab44a;
+    width: 2px;
+    height: 120px;
+    bottom: 0;
+    right: 50px;
+}
